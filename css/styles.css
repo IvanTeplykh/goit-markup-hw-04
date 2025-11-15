@@ -258,6 +258,33 @@ header a:focus,  header a:hover {
 }
 /*END OF THIRD SECTION*/
 
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.overlay-content {
+    color: #F4F4FD;
+    width: 296px;
+    height: 96px;
+    margin: 32px auto;
+}
+
+.box:hover .overlay {
+    transform: translatey(0);
+}
+
 .portfolio {
     margin-bottom: 72px;
 }
