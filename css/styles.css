@@ -139,8 +139,8 @@ header a:focus,  header a:hover {
 /* END OF HEADER */
 
 .section:first-child {
-    background-color: #2E2F42;
-}
+    background: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
+}   
 .section h1 {
     max-width: 496px;
     font-size: 56px;
@@ -186,6 +186,22 @@ header a:focus,  header a:hover {
 .main-second-section-li {
     width: calc((100% - 72px) / 4);
 }
+
+.icon-bacground {
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
+
+.icon {
+    margin: 24px 100px;
+    width: 64px;
+    height: 64px;
+}
+
 .main-second-section-h3 {
     margin-top: 0;
     margin-bottom: 8px;
@@ -203,6 +219,23 @@ header a:focus,  header a:hover {
 .team {
     margin-bottom: 72px;
 }
+
+.icon-social-link {
+    margin-top: 8px;
+    display: flex;
+    gap: 24px;
+}
+
+.icon-social {
+    width: 40px;
+    height: 40px;
+    fill: #4D5AE5;
+}
+
+.icon-social:hover {
+    fill: #404BBF;
+}
+
 .main-third-section-li {
     background-color: #FFFFFF;
     display: flex;
@@ -217,6 +250,7 @@ header a:focus,  header a:hover {
 .main-third-section-li h3 {
     margin: 0;
     margin-bottom: 8px;
+    text-align: center;
 }
 .main-third-section-p {
     text-align: center;
@@ -249,7 +283,10 @@ header a:focus,  header a:hover {
     color: #F4F4FD;
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+    justify-content: flex-start;
 }
+
 footer .logo {
     color: #4d5ae5;
     display: inline-block;
@@ -257,12 +294,35 @@ footer .logo {
     margin-right: 0;
     padding: 0;
 }
+
+.footer .container {
+    display: flex;
+}
+
 .accent-footer {
     color: #f4f4fd;
 }
+
 footer p {
     color: currentColor;
     width: 264px;
     margin: 0;
 }
+
+.footer-icon-social-link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.footer-social-link {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-social-link .icon-social:hover {
+    fill: #31D0AA;
+}
+
 /*END OF FOOTER*/
