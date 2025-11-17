@@ -266,7 +266,7 @@ svg {
   fill: #4d5ae5;
 }
 
-.icon-social:hover {
+.icon-social:hover, .icon-social:focus {
   fill: #404bbf;
 }
 
@@ -342,7 +342,7 @@ svg {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-fourth-section-li:hover .overlay {
+.main-fourth-section-li:hover .overlay-content {
   transform: translateY(0);
 }
 
@@ -449,17 +449,22 @@ footer p {
 .footer-icon-social-link {
   display: flex;
   flex-direction: column;
-  margin-left: 120px;
 }
 
-.footer-social-link {
+.footer svg {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .icon-link-a:hover, .footer .icon-link-a:focus {
+  background-color: #31d0aa;
+}
+
+.footer .social-links {
+  padding: 0;
   display: flex;
   gap: 16px;
-  margin-top: 16px;
-}
-
-.footer-social-link .icon-social:hover {
-  fill: #31d0aa;
+  margin: 0;
 }
 
 /*END OF FOOTER*/
