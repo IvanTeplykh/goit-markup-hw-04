@@ -266,7 +266,8 @@ svg {
   fill: #4d5ae5;
 }
 
-.icon-social:hover, .icon-social:focus {
+.icon-social:hover,
+.icon-social:focus {
   fill: #404bbf;
 }
 
@@ -326,7 +327,8 @@ svg {
 }
 
 .icon-link-a:hover,
-.icon-link-a:active {
+.icon-link-a:active,
+.icon-link-a:focus {
   background-color: #404bbf;
 }
 
@@ -364,7 +366,7 @@ svg {
   height: 100%;
   background-color: #4d5ae5;
   transform: translatey(100%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #f4f4fd;
   padding: 40px 32px;
   font-size: 16px;
@@ -413,12 +415,11 @@ svg {
 
 .footer .container {
   display: flex;
-  justify-content: baseline;
+  align-items: baseline;
 }
 
 .footer-hero {
   margin-right: 120px;
-  justify-content: baseline;
 }
 
 footer .logo {
@@ -435,7 +436,7 @@ footer .logo {
 
 .footer-icon-social-link-paragraf {
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -455,7 +456,8 @@ footer p {
   height: 24px;
 }
 
-.footer .icon-link-a:hover, .footer .icon-link-a:focus {
+.footer .icon-link-a:hover,
+.footer .icon-link-a:focus {
   background-color: #31d0aa;
 }
 
