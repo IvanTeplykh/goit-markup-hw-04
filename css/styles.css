@@ -179,6 +179,7 @@ header a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .section h1 {
   max-width: 496px;
