@@ -324,6 +324,10 @@ header a:hover {
   background-color: #404bbf;
 }
 
+.icon-link-a svg {
+  fill: #f4f4fd;
+}
+
 /*END OF THIRD SECTION*/
 
 .main-fourth-section-li {
@@ -435,6 +439,12 @@ footer p {
 .footer-icon-social-link {
   display: flex;
   flex-direction: column;
+}
+
+.footer svg {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
 }
 
 .footer .icon-link-a:hover,
