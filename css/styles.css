@@ -8,7 +8,6 @@ body {
   color: #434455;
   background-color: #ffffff;
   margin: 0;
-  width: 1440px;
 }
 img {
   display: block;
@@ -47,10 +46,7 @@ h3 {
 .section p {
   font-size: 16px;
 }
-.section:first-child {
-  padding-bottom: 188px;
-  padding-top: 188px;
-}
+
 /*END OF GLOBAL RULES*/
 
 .visually-hidden {
@@ -180,6 +176,9 @@ header a:hover {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  padding-bottom: 188px;
+  padding-top: 188px;
+  margin: 0 auto;
 }
 .section h1 {
   max-width: 496px;
@@ -240,11 +239,6 @@ header a:hover {
   justify-content: center;
 }
 
-svg {
-  width: 64px;
-  height: 64px;
-}
-
 .main-second-section-h3 {
   margin-top: 0;
   margin-bottom: 8px;
@@ -267,17 +261,6 @@ svg {
   margin-top: 8px;
   display: flex;
   gap: 24px;
-}
-
-.icon-social {
-  width: 40px;
-  height: 40px;
-  fill: #4d5ae5;
-}
-
-.icon-social:hover,
-.icon-social:focus {
-  fill: #404bbf;
 }
 
 .main-third-section-li {
@@ -339,12 +322,6 @@ svg {
 .icon-link-a:active,
 .icon-link-a:focus {
   background-color: #404bbf;
-}
-
-.icon-link-a svg {
-  width: 16px;
-  height: 16px;
-  fill: #f4f4fd;
 }
 
 /*END OF THIRD SECTION*/
@@ -458,11 +435,6 @@ footer p {
 .footer-icon-social-link {
   display: flex;
   flex-direction: column;
-}
-
-.footer svg {
-  width: 24px;
-  height: 24px;
 }
 
 .footer .icon-link-a:hover,
